@@ -69,7 +69,7 @@ public class ChessMatch {
 		Position target = targetPosition.toPosition();
 		validateSourcePosition(source);
 		// validar position
-		// validateTargetPosition(source, target);
+		validateTargetPosition(source, target);
 		Piece capturedPiece = makeMove(source, target);
 		if (testCheck(currentPlayer)) {
 			undoMove(source, target, capturedPiece);
