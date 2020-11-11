@@ -20,7 +20,7 @@ public class Board {
 	public void setRows(int rows) {
 		this.rows = rows;
 	}
-	public int getColums() {
+	public int getColumns() {
 		return columns;
 	}
 	public void setColums(int colums) {
